@@ -158,3 +158,24 @@ body {
   font-size: 0.9rem;
   margin-top: 3rem;
 }
+
+/* Responsive Mobile Layout (Media Query) */
+@media (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+}
